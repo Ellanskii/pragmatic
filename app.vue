@@ -1,5 +1,21 @@
+<script lang="ts" setup>
+const sidebar = [
+  'sidebar.dashboard',
+  'sidebar.history',
+  'sidebar.withdrawal',
+  'sidebar.disputes',
+  'sidebar.profiles',
+  'sidebar.payment-details',
+  'sidebar.devices',
+  'sidebar.finance',
+  'sidebar.messages',
+]
+</script>
+
 <template>
-  <div>
-    {{ $t('sidebar.dashboard') }}
-  </div>
+  <ul>
+    <li v-for="i in sidebar" :key="i">
+      {{ $t(i) }}
+    </li>
+  </ul>
 </template>
