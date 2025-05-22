@@ -1,6 +1,13 @@
 {
   "sidebar": {
     "dashboard": "главная",
-    "history": "история транзакций"
+    "devices": "devices",
+    "disputes": "disputes",
+    "finance": "finance",
+    "history": "история транзакций",
+    "messages": "messages",
+    "payment-details": "payment details",
+    "profiles": "profiles",
+    "withdrawal": "withdrawal"
   }
 }
