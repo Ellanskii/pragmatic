@@ -3,10 +3,10 @@
   "readKey": "<your-read-key>",
   "upload": {
     "type": "json",
-    "files": "translations/en.json"
+    "files": "i18n/locales/en.json"
   },
   "download": {
-    "files": "translations/${lang}.json",
+    "files": "i18n/locales/${lang}.json",
     "includeSourceLang": false
   }
 }
