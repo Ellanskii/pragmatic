@@ -14,7 +14,7 @@ const sidebar = [
 
 <template>
   <ul>
-    <li v-for="i in sidebar" :key="i">
+    <li class="capitalize" v-for="i in sidebar" :key="i">
       {{ $t(i) }}
     </li>
   </ul>
