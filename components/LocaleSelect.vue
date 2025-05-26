@@ -10,7 +10,7 @@ const availableLocales = computed(() => {
   return (locales.value).filter(i => i.code !== locale.value).map(i => ({
     icon: `i-circle-flags:${i.code}`,
     label: i.name,
-    href: i.code,
+    to: switchLocalePath(i.code),
   }))
 })
 </script>
