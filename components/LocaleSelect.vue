@@ -17,7 +17,7 @@ const availableLocales = computed(() => {
 
 <template>
   <UDropdownMenu :items="availableLocales">
-    <UButton :icon="`i-circle-flags:${locale}`" />
+    <UButton variant="outline" color="neutral" :icon="`i-circle-flags:${locale}`" :content="{ align: 'end' }" />
   </UDropdownMenu>
 </template>
 

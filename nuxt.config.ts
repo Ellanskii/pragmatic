@@ -11,12 +11,12 @@ export default defineNuxtConfig({
       {
         code: 'en',
         file: 'en.json',
-        name: 'english',
+        name: 'English',
       },
       {
         code: 'ru',
         file: 'ru.json',
-        name: 'русский',
+        name: 'Русский',
       },
     ],
     lazy: true,
