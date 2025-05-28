@@ -13,7 +13,9 @@
     </header>
     <div class="flex">
       <AppSidebar class="pr-2 border-r-1 border-default" />
-      <NuxtPage />
+      <main class="p-4">
+        <NuxtPage />
+      </main>
     </div>
   </UApp>
 </template>
