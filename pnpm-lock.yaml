@@ -11,6 +11,9 @@ dependencies:
   '@iconify-json/circle-flags':
     specifier: ^1.2.6
     version: 1.2.6
+  '@iconify-json/cryptocurrency-color':
+    specifier: ^1.2.2
+    version: 1.2.2
   '@nuxt/eslint':
     specifier: 1.4.1
     version: 1.4.1(@vue/compiler-sfc@3.5.14)(eslint@9.27.0)(typescript@5.8.3)(vite@6.3.5)
@@ -841,6 +844,12 @@ packages:
 
   /@iconify-json/circle-flags@1.2.6:
     resolution: {integrity: sha512-UR7hL1nxOFWDVlSTuAmssyAzm3U1PuE5CMVLlahuVsnm1l7Q2b29+jUaSLTDCFqrpvdeWifCmj4C6Ojkj+4uww==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
+  /@iconify-json/cryptocurrency-color@1.2.2:
+    resolution: {integrity: sha512-gQuPm9hRJQNQjaPenUdQe5/vtrEraLQQyXbaNeddaFCdfSfi/gP9g9lG1K9j0CuCE3P3gd/lwDYrv3FoHYn4tQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
