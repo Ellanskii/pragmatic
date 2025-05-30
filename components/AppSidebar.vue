@@ -15,7 +15,10 @@ const items = [
 </script>
 
 <template>
-  <UNavigationMenu orientation="vertical" :items="items" />
+  <div class="flex flex-col gap-2">
+    <UNavigationMenu orientation="vertical" :items="items" />
+    <SidebarTrust />
+  </div>
 </template>
 
 <style scoped></style>

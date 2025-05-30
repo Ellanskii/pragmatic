@@ -13,7 +13,7 @@
       </div>
     </header>
     <div class="flex min-h-screen">
-      <AppSidebar class="py-4 pr-2 border-r-1 border-default min-h-full" />
+      <AppSidebar class="p-4 pl-2 border-r-1 border-default min-h-full" />
       <main class="p-4">
         <NuxtPage />
       </main>
