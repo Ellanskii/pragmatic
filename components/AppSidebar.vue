@@ -2,6 +2,7 @@
 const localePath = useLocalePath()
 const { t } = useI18n()
 const items = [
+  { label: t('sidebar.links'), type: 'label' },
   { label: t('sidebar.dashboard'), icon: 'i-carbon:dashboard', to: localePath('dashboard') },
   { label: t('sidebar.withdrawal'), icon: 'i-carbon:money', to: localePath('withdrawal') },
   { label: t('sidebar.history'), icon: 'i-carbon:container-image-push-pull', to: localePath('history') },
