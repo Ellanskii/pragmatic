@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import type { NavigationMenuItem } from '@nuxt/ui'
+
 const localePath = useLocalePath()
 const { t } = useI18n()
-const items = [
+const items = ref<NavigationMenuItem[]>([
   { label: t('sidebar.links'), type: 'label' },
   { label: t('sidebar.dashboard'), icon: 'i-carbon:dashboard', to: localePath('dashboard') },
   { label: t('sidebar.withdrawal'), icon: 'i-carbon:money', to: localePath('withdrawal') },
@@ -12,7 +14,8 @@ const items = [
   { label: t('sidebar.devices'), icon: 'i-carbon:devices', to: localePath('devices') },
   { label: t('sidebar.finance'), icon: 'i-carbon:finance', to: localePath('finance') },
   { label: t('sidebar.messages'), icon: 'i-carbon:chat', to: localePath('messages') },
-]
+  { label: t('sidebar.finance'), type: 'label' },
+])
 </script>
 
 <template>
