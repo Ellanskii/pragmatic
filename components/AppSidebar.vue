@@ -3,6 +3,7 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 
 const localePath = useLocalePath()
 const { t } = useI18n()
+
 const items = ref<NavigationMenuItem[]>([
   { label: t('sidebar.links'), type: 'label' },
   { label: t('sidebar.dashboard'), icon: 'i-carbon:dashboard', to: localePath('dashboard') },
