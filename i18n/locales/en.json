@@ -1,5 +1,6 @@
 {
   "sidebar": {
+    "links": "Navigation",
     "dashboard": "Dashboard",
     "history": "Transaction history",
     "withdrawal": "Withdrawal",

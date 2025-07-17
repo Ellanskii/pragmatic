@@ -2,7 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxt/eslint', 
+    '@nuxt/ui', 
+    '@nuxtjs/i18n',
+  ],
 
   css: ['~/assets/css/main.css'],
 
@@ -11,12 +15,12 @@ export default defineNuxtConfig({
       {
         code: 'en',
         file: 'en.json',
-        name: 'english',
+        name: 'English',
       },
       {
         code: 'ru',
         file: 'ru.json',
-        name: 'русский',
+        name: 'Русский',
       },
     ],
     lazy: true,
