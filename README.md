@@ -1,6 +1,4 @@
-# Nuxt Minimal Starter
-
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Что-то про P2P
 
 ## Setup
 
@@ -72,4 +70,20 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## I18n
+Мы не знаем на данный момент список всех поддерживаемых языков, но совершенно точно будут как LTR, так и RTL. К этому нужно быть готовыми, так что вместо всяких `padding-left` используем `text-indent`.
+### Localazy
+
+Для управления переводами используется [localazy](https://localazy.com/). Чтобы скачать актуальные словари или загрузить новые, необходимо создать в корне проекта файл `localazy.json` с приватными ключами и установить `localazy-cli` 
+
+#### Установка `localazy-cli` на MacOS:
+
+    brew tap localazy/tools
+    brew install localazy  
+
+После чего выполнить одну из команд
+
+    localazy download
+    localazy upload
+
+Язык по умолчанию – английский. остальные переводы руками не пишем, localazy сгенерирует приемлемый машинный перевод для остальных локалей.
