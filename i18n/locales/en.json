@@ -1,0 +1,13 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "history": "Transaction history",
+    "withdrawal": "Withdrawal",
+    "disputes": "Disputes",
+    "profiles": "Profiles",
+    "payment-details": "Payment details",
+    "devices": "Devices",
+    "finance": "Finance",
+    "messages": "Messages"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "sidebar": {
+    "dashboard": "главная",
+    "devices": "Устройства",
+    "disputes": "Споры",
+    "finance": "Финансы",
+    "history": "история транзакций",
+    "messages": "Сообщения",
+    "payment-details": "Платежные реквизиты",
+    "profiles": "Профили",
+    "withdrawal": "Выплаты"
+  }
+}

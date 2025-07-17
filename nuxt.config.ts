@@ -4,16 +4,22 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/i18n'],
 
+  css: ['~/assets/css/main.css'],
+
   i18n: {
     locales: [
       {
         code: 'en',
-        name: 'English',
+        file: 'en.json',
+        name: 'english',
       },
       {
         code: 'ru',
-        name: 'Русский',
+        file: 'ru.json',
+        name: 'русский',
       },
     ],
+    lazy: true,
+    defaultLocale: 'en',
   },
 });
